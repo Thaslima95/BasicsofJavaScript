@@ -10,8 +10,6 @@ console.log(result1);
 const result2 = text1.toUpperCase();
 console.log(result2); 
 
-
-
 // removing whitespace from the string
 const result3 = text3.trim();
 console.log(result3); 
@@ -34,9 +32,9 @@ const result7=text1.substr(2,5)//it includes the last value
 console.log(result7)
 
 //another method to get part of a string
-const result8=text1.substring(2,5)//it eliminate last value return string upto end-1
+const result8=text1.substring(2,5)//it eliminate last value return string 
+//upto end-1
 console.log(result8)
-
 //includes
 const result9=text1.includes('s')
 console.log(result9)
@@ -44,7 +42,6 @@ console.log(result9)
 //search
 const result10=text1.search('as')
 console.log(result10)
-
 
 //replace
 const text4="Hello Javascript"

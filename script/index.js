@@ -6,6 +6,8 @@ function helloWrld(){
 
 function declare(){
     window.value="Gobalvariable"
+    const value="Advanced Js"
+document.write(value)
 }
 
 declare();
@@ -25,6 +27,8 @@ function change()
 {
     document.title="JavaScript Web Page"
 }
+
+
 
 
 

@@ -116,7 +116,7 @@
 // console.log(number3);  // NaN
 
 
-//BigInt value
+//BigInt value(more than 2^53 -1)
 const value1 = 9007199251247675676740998n;
 
 // Adding two big integers
@@ -129,18 +129,7 @@ const value2 = 9007199251247675676740998n;
 const result2 = value2 + 1; 
 console.log(result2); 
 
-// // BigInt value
-// const value1 = 900719925124740998n;
 
-// // Adding two big integers
-// const result1 = value1 + 1n;
-// console.log(result1); // "900719925124740999n"
-
-// const value2 = 900719925124740998n;
-
-// // Error! BitInt and number cannot be added
-// const result2 = value2 + 1; 
-// console.log(result2); 
 
 
 // let names;
