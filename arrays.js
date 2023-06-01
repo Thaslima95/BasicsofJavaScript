@@ -100,11 +100,12 @@ console.log(array2); //[ 'exercise', 'sleep', 'work' ]
 
 // slicing the array elements
 const array3 = array2.slice(1);
-console.log(array3); //[ 'work', 'exercise' ]
+console.log(array3); //[ 'sleep', 'work' ]
 
 // concatenating two arrays
 const activity = array2.concat(array3);
 console.log(activity); // [ 'sleep', 'work', 'exercise', 'work', 'exercise' ]
+//The concat() method does not change the existing arrays. It always returns a new array.
 
 
 // //toString()
