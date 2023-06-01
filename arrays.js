@@ -47,7 +47,7 @@
 // console.log(array1)//[ 'work', 'Walking', 'sleep' ]
 
 //Suppose, an array has two elements.
-// If you try to add an element at index 4 (fourth element), the third & fourth element will be undefined
+// If you try to add an element at index 4 (fifth element), the third & fourth element will be undefined
 
 // array1[4]="Drinking water"
 
@@ -87,37 +87,37 @@ let array2 = ['sleep', 'work', 'exercise']
 let newactiviity = ['eat'];
 
 // sorting elements in the alphabetical order
-array2.sort();
-console.log(array2); // ['exercise', 'sleep', 'work']
+// array2.sort();
+// console.log(array2); // ['exercise', 'sleep', 'work']
 
-//finding the index position of string
-const position = array2.indexOf('work');
-console.log(position); // 2
+// //finding the index position of string
+// const position = array2.indexOf('work');
+// console.log(position); // 2
 
-const pos=array2.indexOf("Sleeping")
-console.log(pos)//element is not present in array
-//return -1
+// const pos=array2.indexOf("Sleeping")
+// console.log(pos)//element is not present in array
+// //return -1
 
 // slicing the array elements
 const array3 = array2.slice(1);
-console.log(array3); // [ 'sleep', 'work']
+console.log(array3); //[ 'work', 'exercise' ]
 
 // concatenating two arrays
 const activity = array2.concat(array3);
-console.log(activity); // ["exercise", "sleep", "work", "eat"]
+console.log(activity); // [ 'sleep', 'work', 'exercise', 'work', 'exercise' ]
 
 
-//toString()
-console.log(array2.toString())
+// //toString()
+// console.log(array2.toString())
 
-//join
-console.log(array2.join('^'))
+// //join
+// console.log(array2.join('^'))
 
-//splice
-//The splice() method can be used to add new items to an array
+// //splice
+// //The splice() method can be used to add new items to an array
 
-array2.splice(2, 0, "Riding", "Running");
-//first argument denotes the position to add an element
-//second argument denotes how many elements needs to remove
+// array2.splice(2, 0, "Riding", "Running");
+// //first argument denotes the position to add an element
+// //second argument denotes how many elements needs to remove
 
-console.log(array2)
+// console.log(array2)
