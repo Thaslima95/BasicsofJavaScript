@@ -84,11 +84,11 @@ let array1 = ['eat', 'sleep','walking'];
 // console.log(`Length of the array is ${array1.length}`)
 
 let array2 = ['sleep', 'work', 'exercise']
-let newactiviity = ['eat'];
+
 
 // sorting elements in the alphabetical order
-// array2.sort();
-// console.log(array2); // ['exercise', 'sleep', 'work']
+array2.sort();
+console.log(array2); //[ 'exercise', 'sleep', 'work' ]
 
 // //finding the index position of string
 // const position = array2.indexOf('work');
