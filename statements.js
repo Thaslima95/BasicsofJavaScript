@@ -164,11 +164,19 @@
 // }
 
 //Looping over string
-let str="I am Thaslima"
+// let str="I am Thaslima"
 
-for(let s of str)
+// for(let s of str)
+// {
+//     console.log(s)
+// }
+
+//for..in arrays
+let arr1=[1,"three",4,"five",true]
+
+for(let a in arr1)
 {
-    console.log(s)
+    console.log(arr1[a])
 }
 
 
