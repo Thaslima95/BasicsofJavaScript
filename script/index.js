@@ -1,5 +1,5 @@
 document.write("JavaScript is a simple language for javatpoint learners"); 
-
+document.getElementById("tag").innerHTML="Hello";
 function helloWrld(){
     alert("Hello world")
 }
